@@ -1,0 +1,36 @@
+.header-content {
+    height: 60px;
+    background-color: #132644;
+    color: white;
+    /* display: block; */
+    position: fixed;
+    width: calc(100% - 320px);
+}
+
+.sidebar.close~.home-section .header-content {
+    left: 78px;
+    width: calc(100% - 78px);
+}
+
+/* .sidebar.close~.header-content {
+    left: 78px;
+    width: calc(100% - 78px);
+  } */
+
+.header-content i {
+    margin-left: 2px;
+}
+
+.titleHeader {
+    font-size: 20px;
+}
+
+.titleOptionHeader {
+    margin-top: 10px;
+}
+
+.selectedOptionHeader {
+    background-color: aliceblue;
+    border-radius: 23px;
+    padding: 3px 7px 3px 7px;
+}
